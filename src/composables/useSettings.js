@@ -2,7 +2,8 @@ import { ref, watch } from 'vue'
 
 function load(key, fallback) {
   const v = localStorage.getItem(`homepage-${key}`)
-  return v !== null ? v : fallback
+  if (v === null) return fallback
+  try { return JSON.parse(v) } catch { return v }
 }
 
 function persist(key, value) {
