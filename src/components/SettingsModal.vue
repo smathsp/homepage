@@ -331,6 +331,8 @@ defineExpose({ open })
 .settings-btn:hover { border-color: var(--border-hover); color: var(--text); }
 .settings-btn svg { width: 16px; height: 16px; }
 
+@media (max-width: 768px) { .settings-btn { bottom: 14px; right: 14px; width: 36px; height: 36px; } }
+
 /* ---- Modal overlay ---- */
 .settings-overlay {
   position: fixed;
