@@ -18,7 +18,7 @@
 
 - **框架**：[Vue 3](https://vuejs.org/) (Composition API)
 - **构建工具**：[Vite](https://vitejs.dev/)
-- **UI/CSS**：纯 CSS (CSS Variables, CSS Grid / Flexbox, CSS Transitions) 
+- **UI/CSS**：纯 CSS (CSS Variables, CSS Grid / Flexbox, CSS Transitions)
 
 ## 📦 快速开始 (Getting Started)
 
@@ -26,7 +26,7 @@
 
 ```bash
 # 1. 安装依赖
-npm install 
+npm install
 # 或者使用 pnmp / yarn
 # pnpm install
 ```
@@ -57,9 +57,11 @@ npm run build
 ## ⚙️ 个性化设置 (Settings)
 
 点击右下角的 **“设置”** (齿轮图标) 可打开面板，您可以：
+
 - 切换主题背景与色彩
 - 管理搜索行为（例如强制在新标签页打开）
 - 填写 Github 配置以启用自动备份（填写 Username, Repository, Branch 和 Personal Access Token）
 
 ---
-*Created with ❤️ by Vue 3 & Vite.*
+
+_Created with ❤️ by Vue 3 & Vite._
