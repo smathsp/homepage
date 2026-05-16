@@ -1,0 +1,188 @@
+{
+  "bookmarks": {
+    "工作": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com",
+        "desc": "代码托管"
+      },
+      {
+        "name": "Gmail",
+        "url": "https://mail.google.com",
+        "desc": "邮件"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com",
+        "desc": "云存储"
+      },
+      {
+        "name": "Calendar",
+        "url": "https://calendar.google.com",
+        "desc": "日程"
+      },
+      {
+        "name": "Notion",
+        "url": "https://www.notion.so",
+        "desc": "文档协作"
+      },
+      {
+        "name": "Slack",
+        "url": "https://slack.com",
+        "desc": "团队沟通"
+      }
+    ],
+    "开发": [
+      {
+        "name": "Stack Overflow",
+        "url": "https://stackoverflow.com",
+        "desc": "技术问答"
+      },
+      {
+        "name": "MDN",
+        "url": "https://developer.mozilla.org",
+        "desc": "Web 文档"
+      },
+      {
+        "name": "npm",
+        "url": "https://www.npmjs.com",
+        "desc": "包管理"
+      },
+      {
+        "name": "CodePen",
+        "url": "https://codepen.io",
+        "desc": "在线练习"
+      },
+      {
+        "name": "Vercel",
+        "url": "https://vercel.com",
+        "desc": "部署平台"
+      },
+      {
+        "name": "Linear",
+        "url": "https://linear.app",
+        "desc": "项目管理"
+      }
+    ],
+    "社交": [
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com",
+        "desc": "社交网络"
+      },
+      {
+        "name": "Reddit",
+        "url": "https://www.reddit.com",
+        "desc": "论坛社区"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com",
+        "desc": "视频"
+      },
+      {
+        "name": "Hacker News",
+        "url": "https://news.ycombinator.com",
+        "desc": "技术资讯"
+      },
+      {
+        "name": "Bilibili",
+        "url": "https://www.bilibili.com",
+        "desc": "视频"
+      }
+    ],
+    "媒体": [
+      {
+        "name": "Spotify",
+        "url": "https://open.spotify.com",
+        "desc": "音乐"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com",
+        "desc": "影视"
+      },
+      {
+        "name": "YouTube Music",
+        "url": "https://music.youtube.com",
+        "desc": "音乐"
+      }
+    ],
+    "工具": [
+      {
+        "name": "Translate",
+        "url": "https://translate.google.com",
+        "desc": "翻译"
+      },
+      {
+        "name": "Google Maps",
+        "url": "https://maps.google.com",
+        "desc": "地图"
+      },
+      {
+        "name": "Excalidraw",
+        "url": "https://excalidraw.com",
+        "desc": "白板"
+      },
+      {
+        "name": "Photopea",
+        "url": "https://www.photopea.com",
+        "desc": "图片编辑"
+      },
+      {
+        "name": "DeepL",
+        "url": "https://www.deepl.com/translator",
+        "desc": "翻译"
+      }
+    ],
+    "AI": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chatgpt.com",
+        "desc": "OpenAI"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai",
+        "desc": "Anthropic"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com",
+        "desc": "Google AI"
+      },
+      {
+        "name": "Perplexity",
+        "url": "https://www.perplexity.ai",
+        "desc": "AI 搜索"
+      }
+    ]
+  },
+  "settings": {
+    "bookmarkSort": "name",
+    "categoryOrder": "[\"工作\",\"开发\",\"社交\",\"媒体\",\"工具\",\"AI\"]",
+    "accentHue": 195,
+    "bgOrbs": true,
+    "searchNewTab": false,
+    "clock24h": true,
+    "showSeconds": true,
+    "showDate": true,
+    "showGreeting": true,
+    "clickNewTab": false,
+    "bgDarkImage": "\"https://img.smathsp.com/2026/05/9b4160a7af255e6134142618fe74710b.webp\"",
+    "bgDarkBlur": "md",
+    "bgDarkSaturate": 50,
+    "bgDarkBrightness": 50,
+    "bgDarkOpacity": 50,
+    "bgLightImage": "",
+    "bgLightBlur": "md",
+    "bgLightSaturate": 50,
+    "bgLightBrightness": 50,
+    "bgLightOpacity": 50,
+    "aiModel": "deepseek-chat",
+    "aiEndpoint": "https://api.deepseek.com/v1/chat/completions",
+    "ghUsername": "smathsp",
+    "ghRepo": "homepage",
+    "ghBranch": "main"
+  }
+}
