@@ -6,6 +6,7 @@ import { bgOrbs, bgDarkImage, bgDarkBlur, bgDarkSaturate, bgDarkBrightness, bgDa
 import { useTheme } from './composables/useTheme.js'
 import { blurMap } from './composables/useSettings.js'
 import ThemeToggle from './components/ThemeToggle.vue'
+import RefreshButton from './components/RefreshButton.vue'
 import ClockSection from './components/ClockSection.vue'
 import SearchBar from './components/SearchBar.vue'
 import CategoryTabs from './components/CategoryTabs.vue'
@@ -89,6 +90,7 @@ onUnmounted(() => {
   <div class="bg-image" :style="bgStyle"></div>
   <div v-if="bgImage && theme === 'light'" class="bg-image-mask"></div>
 
+  <RefreshButton />
   <ThemeToggle />
 
   <main class="app-container">

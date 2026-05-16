@@ -312,6 +312,8 @@ export function useBookmarks() {
     exportData,
     importData,
     importBrowserBookmarks,
+    refreshCategories,
+    saveBookmarks: () => save(bookmarks),
     defaultBookmarks
   }
 }
