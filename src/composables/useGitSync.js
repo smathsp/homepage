@@ -104,9 +104,14 @@ export function useGitSync() {
   }
 
   async function sync(localBookmarks, localSettings) {
-    const remote = await pull()
+    let remote = { bookmarks: {}, settings: {} }
+    try {
+      remote = await pull()
+    } catch (e) {
+      // First sync — no remote file yet, just push local
+      if (!e.message.includes('未找到')) throw e
+    }
     const mergedBookmarks = mergeBookmarks(localBookmarks, remote.bookmarks || {})
-    // Settings: remote base, local overrides (except sensitive)
     const mergedSettings = { ...(remote.settings || {}), ...localSettings }
     const merged = { bookmarks: mergedBookmarks, settings: mergedSettings }
     await push(JSON.stringify(merged, null, 2))
