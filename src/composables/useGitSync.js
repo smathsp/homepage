@@ -1,7 +1,7 @@
 import { ref } from 'vue'
 import { ghUsername, ghRepo, ghBranch, ghToken } from './useSettings.js'
 
-const FILE_PATH = 'homepage-data.json'
+const FILE_PATH = 'public/homepage-data.json'
 const syncing = ref(false)
 const lastSync = ref(localStorage.getItem('homepage-last-sync') || '')
 
